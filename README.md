@@ -61,5 +61,4 @@ preprocessed by Twirl should be placed in [src/main/static](src/main/static).
 While executing `xelatex` command we filter out errors and warnings and log them
 to the console. Filtering is done using
 [regexes](src/main/scala/CLaTeXOutputFilter.scala) taken from
-[TeXnicCenter](https://sourceforge.net/p/texniccenter/code/ci/default/tree/TeXnicCenter/LatexOutputFilter.cpp)
-sources.
+[TeXnicCenter sources](https://sourceforge.net/p/texniccenter/code/ci/default/tree/TeXnicCenter/LatexOutputFilter.cpp).
