@@ -30,6 +30,11 @@ packages covering virtually any use case and an active community, writing your
 own extensions and automations for LaTeX is usually a complicated task since TeX
 was not intended to be a handy programming language.
 
+Why do you need programming in LaTeX? Well, maybe for most kinds of text
+documents you don't. But rich programming capabilities will be extremely useful
+if you create something like a course material with a set of tasks, tests, exam 
+variants and so on.
+
 Our approach enables one to use Scala to create extensions and automations in a
 simple, declarative, object-oriented, functional and type-safe way. Since we are
 mostly dealing with string literals it is convinient to use a templating engine
